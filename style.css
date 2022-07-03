@@ -1,3 +1,29 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #006468;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.btn{
+    padding: 10px 60px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+button.btn:hover{
+    transform: scale(1.1);
 }

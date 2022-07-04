@@ -24,6 +24,56 @@ button.btn{
     cursor: pointer;
 }
 
+
+
 button.btn:hover{
     transform: scale(1.1);
+}
+
+.popup{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    background-color: azure;
+    border-radius: 12px;
+    /* visibility: hidden; */
+}
+
+.popup img{
+    width: 150px;
+    margin-top: -19%;
+    border-radius: 50%;
+    box-shadow: 0 6px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h1{
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.popup p{
+    text-align: center;
+    margin-top: 6%;
+    font-size: 20px;
+    font-display: inherit;
+}
+
+.popup button{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  background-color: rgb(12, 212, 45);
+  border: none;
+  border-radius: 9px;
+  font-size: 20px;
+  font-weight: 400;
+  color: aliceblue;
+  padding: 10px 160px;
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.2) ;
+}
+
+.popup button:hover{
+transform: scale(1.05);
 }

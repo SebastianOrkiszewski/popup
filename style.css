@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 
-button.btn{
+button.openpopup{
     padding: 10px 60px;
     background-color: chocolate;
     border: none;
@@ -24,9 +24,7 @@ button.btn{
     cursor: pointer;
 }
 
-
-
-button.btn:hover{
+button.openpopup:hover{
     transform: scale(1.1);
 }
 
@@ -38,7 +36,13 @@ button.btn:hover{
     width: 420px;
     background-color: azure;
     border-radius: 12px;
-    /* visibility: hidden; */
+    visibility: hidden;
+}
+
+
+
+.open-popup{
+    visibility: visible;
 }
 
 .popup img{
@@ -64,7 +68,7 @@ button.btn:hover{
 .popup button{
   margin-top: 10%;
   margin-bottom: 5%;
-  background-color: rgb(12, 212, 45);
+  background-color: rgb(43, 131, 58);
   border: none;
   border-radius: 9px;
   font-size: 20px;
@@ -76,4 +80,13 @@ button.btn:hover{
 
 .popup button:hover{
 transform: scale(1.05);
+}
+
+@media only screen and (max-width:400px){
+    .popup{
+        width: 340px;
+    }
+    .popup button{
+        padding: 10px 130px;
+    }
 }
